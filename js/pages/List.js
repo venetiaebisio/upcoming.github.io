@@ -43,12 +43,12 @@ export default {
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">ID</div>
+                            <div class="type-title-sm">Verifier</div>
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <div class="type-title-sm">Record</div>
+                            <p>{{ level.password || 'None/Unknown' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
